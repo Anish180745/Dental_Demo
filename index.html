@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Lumina Dental — Gentle care, bright smiles</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav><a class="logo" href="#top">Lumina Dental</a><div class="links"><a href="#services">Treatments</a><a href="#team">Dentists</a><a class="btn coral" href="#book">Book a visit</a></div></nav>
+
+<header class="hero" id="top">
+  <div class="stage">
+    <h1 id="headline" aria-label="Smile like you mean it.">Smile like you mean it.</h1>
+    <p>A calm, modern dental clinic where cleanings, braces and whitening happen without the dread. Same-week appointments, no surprise bills.</p>
+    <div class="cta"><a class="btn coral" href="#book">Book a free check-up</a><a class="btn" href="#services">See treatments</a></div>
+  </div>
+  <div class="tooth-wrap" id="scene">
+    <div class="tooth" id="tooth"></div>
+    <span class="orb" style="width:70px;height:70px;left:8%;top:14%"></span>
+    <span class="orb" style="width:38px;height:38px;right:12%;top:30%;animation-delay:-2s"></span>
+    <span class="orb" style="width:54px;height:54px;right:22%;bottom:10%;animation-delay:-4s"></span>
+    <span class="chip" style="left:2%;bottom:22%">Painless ✨</span>
+    <span class="chip" style="right:0;top:6%">Open Sat 🦷</span>
+    <span class="chip" style="left:34%;bottom:0">Drag me around</span>
+  </div>
+</header>
+
+<div class="band" aria-hidden="true"><div>Whitening • Braces • Implants • Cleanings • Kids' dentistry • Whitening • Braces • Implants • Cleanings • Kids' dentistry • </div></div>
+
+<section id="services">
+  <h2 class="rv">Care for every tooth in the family</h2>
+  <p class="sub rv">Move your cursor over the cards. Each treatment is planned with you first, priced up front, and done in the fewest visits possible.</p>
+  <div class="grid">
+    <div class="card rv"><span class="ic">🪥</span><h3>Check-up & cleaning</h3><p>Scale, polish and a plain-English plan. About 40 minutes.</p></div>
+    <div class="card rv"><span class="ic">✨</span><h3>Teeth whitening</h3><p>Up to 8 shades brighter in one sitting, gentle on gums.</p></div>
+    <div class="card rv"><span class="ic">😁</span><h3>Clear aligners</h3><p>Straighter teeth with removable, nearly invisible trays.</p></div>
+    <div class="card rv"><span class="ic">🦷</span><h3>Implants & crowns</h3><p>Natural-looking replacements built to last for years.</p></div>
+    <div class="card rv"><span class="ic">🧒</span><h3>Kids' dentistry</h3><p>A friendly first visit with games, stickers and zero fear.</p></div>
+    <div class="card rv"><span class="ic">🚑</span><h3>Emergency care</h3><p>Toothache or a chipped tooth? We see you the same day.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2 class="rv">Your first visit, start to finish</h2>
+  <p class="sub rv">No jargon and no pressure. You decide what happens next.</p>
+  <div class="steps">
+    <div class="step rv"><h3>Book online</h3><p>Pick a time in under a minute.</p></div>
+    <div class="step rv"><h3>Gentle exam</h3><p>Digital scans, low radiation, no gagging trays.</p></div>
+    <div class="step rv"><h3>Clear plan</h3><p>See options and exact costs before we start.</p></div>
+    <div class="step rv"><h3>Smile</h3><p>Treatment with numbing, music and breaks on request.</p></div>
+  </div>
+</section>
+
+<section id="team">
+  <h2 class="rv">Meet your dentists</h2>
+  <p class="sub rv">Three specialists, one team that remembers your name.</p>
+  <div class="docs">
+    <div class="doc rv"><b>Dr. Aisha Rao</b>Lead dentist, cosmetic and whitening. 14 years of practice.</div>
+    <div class="doc rv"><b>Dr. Karan Mehta</b>Orthodontist, clear aligners and braces for teens and adults.</div>
+    <div class="doc rv"><b>Dr. Nisha Verma</b>Pediatric dentist who makes the first visit fun.</div>
+  </div>
+</section>
+
+<section id="book">
+  <div class="book">
+    <div><h2 class="rv">Book your free check-up</h2><p class="sub rv">Tell us when suits you. We confirm by phone within one working hour.</p></div>
+    <form id="f" class="rv">
+      <input id="n" placeholder="Your name" required autocomplete="name">
+      <input id="p" type="tel" placeholder="Phone number" required autocomplete="tel">
+      <select id="s"><option>Check-up & cleaning</option><option>Teeth whitening</option><option>Clear aligners</option><option>Implants & crowns</option><option>Kids' dentistry</option><option>Emergency</option></select>
+      <input id="d" type="date" required>
+      <button class="btn coral" type="submit">Request appointment</button>
+      <p id="ok" role="status"></p>
+    </form>
+  </div>
+</section>
+
+<footer><span><b>Lumina Dental</b> · 24 Garden Road · Open Mon–Sat, 9 am to 7 pm</span><span>This is a demo website.</span></footer>
+
+<script src="script.js"></script>
+</body>
+</html>
